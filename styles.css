@@ -1,0 +1,109 @@
+
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+    font-family: 'Andada Pro', serif;
+
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: #000;
+    height: 120px;
+}
+
+.navbar-nav{
+
+    text-align: left;
+    margin-left: 10px ;
+}
+
+.navbar-dark .navbar-brand{
+    color: #fff;
+    margin: 2px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 2px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    margin-right: 70px;
+    font-family: 'Andada Pro', serif;
+}
+
+header{
+    color: #fff;
+}
+
+.center {   
+    font-size: 110px;
+    letter-spacing: 1px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-family: serif;
+}
+
+#date {
+    margin-top: 100px;
+    padding-left: 150px;
+    border-style:solid;
+    text-align: left;
+    border: 1.5px solid rgb(151, 149, 158);
+    background-color: #d3d3d33b;
+    letter-spacing: 2px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+
+}
+
+#date h4{
+    font-weight: 700;
+    font-family: 'Andada Pro', serif;
+}
+
+.col-md-5 .text-left .show_info{
+    font-family: 'Andada Pro', serif;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.name_show{
+    margin-bottom: 1rem;
+}
+.dates_for_show, .show_price{
+    font-weight: bolder;
+}
+.btn {
+    color: #fff;
+    background-color: #dd7b20;
+    border: 1px solid #343242;
+}
+
+.map-container-2 {
+    overflow: hidden;
+    position: relative;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+.card {
+    color: #000;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-bottom: 0;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+footer{
+    color: #fff;
+}
